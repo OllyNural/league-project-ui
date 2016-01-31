@@ -1,0 +1,29 @@
+<html>
+<head>
+    <title>Time to start</title>
+    <style type="text/css">
+        [ng\:cloak], [ng-cloak], .ng-cloak {
+        display: none !important;
+        }
+    </style>
+</head>
+<body ng-app="main">
+
+<div class="container">
+    <p>This is a paragraph</p>
+
+    <p>This is your first angular expression: {{ 1 + 2 }}</p>
+
+    <div ng-controller="controller-div">
+        <p>The ID is {{greeting.id}}</p>
+
+        <p>The content is {{greeting.content}}</p>
+    </div>
+</div>
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.4/angular.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
