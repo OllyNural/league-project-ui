@@ -1,10 +1,14 @@
 angular.module('main', [])
   .controller('controller-div', function($scope) {
-    $.get( "http://localhost:8080/league-project/summoner/ripolly",
+
+    var pathArray = window.location.pathname.split( '/' );
+    var secondLevelLocation = pathArray[0];
+    console.log(secondLevelLocation);
+
+    $.get( "/summoner/name/ripolly",
         function(data){
             console.log(data)
-        },
-        "JSONP");
+        });
     console.log("hello");
     $scope.greeting = {id: 'xxx', content: 'Hello World!'}
 })

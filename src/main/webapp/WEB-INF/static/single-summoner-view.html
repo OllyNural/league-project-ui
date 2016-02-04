@@ -1,16 +1,16 @@
 <html>
 <head>
     <title>Time to start</title>
-    <style type="text/css">
-        [ng\:cloak], [ng-cloak], .ng-cloak {
-        display: none !important;
-        }
-    </style>
+    <!--<style type="text/css">-->
+        <!--[ng\:cloak], [ng-cloak], .ng-cloak {-->
+            <!--display: none !important;-->
+        <!--}-->
+    <!--</style>-->
 </head>
 <body ng-app="main">
 
-<div class="container">
-    <p>This is a paragraph</p>
+<div class="controller">
+    <p>This is a summoner view</p>
 
     <div ng-controller="controller-div">
         <p>The ID is {{greeting.id}}</p>
@@ -18,10 +18,7 @@
         <p>The content is {{greeting.content}}</p>
     </div>
 </div>
-
-
+<script src="static/js/main.js"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.4/angular.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-<script src="js/main.js"></script>
 </body>
 </html>

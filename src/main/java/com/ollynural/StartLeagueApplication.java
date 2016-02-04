@@ -1,12 +1,12 @@
-package com.ollynural.ui;
+package com.ollynural;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class LeagueProjectUiApplication {
+public class StartLeagueApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(LeagueProjectUiApplication.class, args);
+		SpringApplication.run(StartLeagueApplication.class, args);
 	}
 }
